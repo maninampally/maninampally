@@ -22,7 +22,7 @@ Real-time authentication risk detection platform processing **1,000–10,000 eve
 
 - **Stack:** PySpark · Apache Flink · Apache Iceberg · AWS Kinesis · EMR · S3 · Glue · Athena · QuickSight · Terraform
 - **SLAs:** 99.9% uptime · <5min data freshness · <0.1% error rate
-- [View Repository](https://github.com/maninampally/AuthPulse)
+- [View Repository](https://github.com/maninampally/authpulse-aws-streaming-security-analytics)
 
 ---
 
@@ -40,7 +40,7 @@ ML web application comparing **6 regression models** (Linear Regression, Decisio
 
 - **Stack:** scikit-learn · XGBoost · CatBoost · Flask · Docker · GitHub Actions · AWS EC2/ECR
 - Full CI/CD pipeline with containerized deployment
-- [View Repository](https://github.com/maninampally/Student-Performance-Prediction)
+- [View Repository](https://github.com/maninampally/student-performance-prediction-ml)
 
 ---
 
@@ -48,7 +48,7 @@ ML web application comparing **6 regression models** (Linear Regression, Decisio
 Full-stack app for retrieving live stock data and financial metrics (P/E, ROE, debt-to-equity) with a secure server-side API proxy keeping keys off the client.
 
 - **Stack:** FastAPI · Python · HTML/CSS/JS · Finnhub API
-- [View Repository](https://github.com/maninampally/stock-price-api)
+- [View Repository](https://github.com/maninampally/stock-price-api-project)
 
 ---
 
@@ -56,7 +56,7 @@ Full-stack app for retrieving live stock data and financial metrics (P/E, ROE, d
 Interactive Power BI dashboard analyzing stock market data across sectors, valuation metrics, and risk — built with DAX measures and multi-dimensional filtering.
 
 - **Stack:** Power BI · DAX · Financial datasets
-- [View Repository](https://github.com/maninampally/stock-market-bi)
+- [View Repository](https://github.com/maninampally/stock-market-bi-dashboard)
 
 ---
 
@@ -64,7 +64,7 @@ Interactive Power BI dashboard analyzing stock market data across sectors, valua
 Food delivery backend system built from requirements → UML architecture → implementation → testing. Demonstrates structured software engineering with 24 unit tests (100% passing).
 
 - **Stack:** Python · UML · Test-Driven Development · Design Patterns
-- [View Repository](https://github.com/maninampally/ai-system-design)
+- [View Repository](https://github.com/maninampally/bytebites-system-design)
 
 ---
 
