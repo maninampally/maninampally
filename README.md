@@ -105,11 +105,27 @@ Food delivery backend system built from requirements → UML architecture → im
 
 ## GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=maninampally&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=maninampally&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+</p>
 
-![](https://nirzak-streak-stats.vercel.app/?user=maninampally&theme=github_dark&hide_border=false)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=maninampally&theme=darkhub&no-frame=false&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies" />
+</p>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=maninampally&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=maninampally&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub Stats" height="180" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maninampally&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" height="180" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=maninampally&theme=github_dark&hide_border=false" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=maninampally&theme=github-compact&hide_border=false&area=true" alt="Contribution Activity Graph" />
+</p>
 
 ---
 
