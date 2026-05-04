@@ -43,7 +43,7 @@ def transform(order: dict) -> dict:
 def load(order: dict) -> str:
     """Serve drink. get back to writing dbt models."""
     return (
-        f"\n  ☕ DRINK READY  : {order['drink']}\n"
+        f"\n ☕ DRINK READY  : {order['drink']}\n"
         f"  🎯 Mood         : {order['mood']}\n"
         f"  👨‍🍳 Made by      : {order['made_by']}\n"
         f"  ⭐ Quality      : {order['quality']}\n"
@@ -124,7 +124,7 @@ print("""
 ║          MANIKANTH NAMPALLY  —  DATA ENGINEER             ║
 ╠═══════════════════════════════════════════════════════════╣
 ║  📍 Location    Boca Raton, FL (remote-friendly)          ║
-║  🎓 Education   M.S. ITM — FAU (2026)  |  GPA 3.9        ║
+║  🎓 Education   M.S. ITM — FAU (2026)  |  GPA 3.9         ║
 ║  💼 Currently   Data Engineer @ Opsylux LLC               ║
 ║  ⚡ Scale       10+ TB/day · 708M+ events · 3 clouds      ║
 ║  🤖 Building    Artha AI · FinSentinel                    ║
