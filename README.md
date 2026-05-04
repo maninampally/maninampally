@@ -1,116 +1,282 @@
-<h1 align="center">Hi, I'm Manikanth Nampally</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Manikanth%20Nampally&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Engineer%20%7C%20ML%20Infrastructure%20%7C%20Cloud%20Data%20Platforms&descAlignY=53&descAlign=50" width="100%"/>
 
-<p align="center">
-  Data Engineer · AI/ML Engineer · Fintech Specialist
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://linkedin.com/in/manikanthn"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:manikanthnampally94@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"/></a>
-</p>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=750&lines=Building+real-time+pipelines+processing+10%2B+TB%2Fday;Streaming+708M%2B+events+across+AWS+%7C+Azure+%7C+GCP;AI+agents+scoring+500%2B+equities+daily+with+LangGraph;Fine-tuning+FinBERT+%7C+PyTorch+%7C+TensorFlow+in+production;MLOps+engineer+shipping+0.992+F1+phishing+detectors)](https://git.io/typing-svg)
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manikanthn)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maninampally)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manikanthnampally94@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=maninampally&label=Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/maninampally)
 
-I build data-intensive systems that operate at scale — from real-time streaming pipelines processing thousands of events per second to AI agents that automate complex workflows. My focus is fintech: fraud detection, risk analytics, trading systems, and financial intelligence.
+🟢 **Open to Data Engineer · ML Engineer · MLOps roles · Remote friendly**
 
----
-
-## Featured Projects
-
-### AuthPulse — AWS Streaming Security Analytics
-Real-time authentication risk detection platform processing **1,000–10,000 events/sec** on AWS with sub-5-minute detection latency. Detects new device spikes, burst logins, lateral movement, and rare host access patterns.
-
-- **Stack:** PySpark · Apache Flink · Apache Iceberg · AWS Kinesis · EMR · S3 · Glue · Athena · QuickSight · Terraform
-- **SLAs:** 99.9% uptime · <5min data freshness · <0.1% error rate
-- [View Repository](https://github.com/maninampally/authpulse-aws-streaming-security-analytics)
+</div>
 
 ---
 
-### repo2jac — AI-Powered Code Conversion Tool
-Agentic AI app built for the **Velric Miami Hackathon** that converts any public GitHub repository into idiomatic Jac/Jaseci code in under 60 seconds, including documentation and runnable demos.
+## ☕ Barista Pipeline
 
-- **Stack:** FastAPI · Next.js 14 · Claude API · Server-Sent Events · Jac/Jaseci
-- Six-stage pipeline: Fetch → Analyze → Plan → Convert → Validate → Assemble
-- [View Repository](https://github.com/maninampally/repo2jac)
+```python
+# ── BARISTA PIPELINE ─────────────────────────────────────────
+# (yes this is a real ETL. yes i wrote it between orders.)
 
----
+from datetime import datetime
 
-### Student Performance Prediction — End-to-End ML System
-ML web application comparing **6 regression models** (Linear Regression, Decision Trees, Random Forest, Gradient Boosting, XGBoost, AdaBoost) to predict student outcomes, deployed to AWS.
+def extract(beans: str) -> dict:
+    """Pull raw ingredients from the bar"""
+    return {"beans": beans, "source": "FAU Starbucks", "barista": "Mani"}
 
-- **Stack:** scikit-learn · XGBoost · CatBoost · Flask · Docker · GitHub Actions · AWS EC2/ECR
-- Full CI/CD pipeline with containerized deployment
-- [View Repository](https://github.com/maninampally/student-performance-prediction-ml)
+def transform(order: dict) -> dict:
+    """Craft the drink. no oat milk. ever."""
+    hour = datetime.now().hour
+    if 5 <= hour < 15:
+        order["drink"]  = "Brown Sugar Shaken Espresso sub VSC"
+        order["mood"]   = "focused ⚡"
+    else:
+        order["drink"]  = "Trenta Vanilla Sweet Cream Cold Brew"
+        order["mood"]   = "in the zone 🧊"
+    order["made_by"]    = "Mani (the barista who also deploys to prod)"
+    order["quality"]    = "10/10 — obviously"
+    return order
 
----
+def load(order: dict) -> str:
+    """Serve drink. get back to writing dbt models."""
+    return (
+        f"\n  ☕ DRINK READY  : {order['drink']}\n"
+        f"  🎯 Mood         : {order['mood']}\n"
+        f"  👨‍🍳 Made by      : {order['made_by']}\n"
+        f"  ⭐ Quality      : {order['quality']}\n"
+        f"  📝 Next action  : finish this Airflow DAG before next customer\n"
+    )
 
-### Stock Price API — Secure Financial Data Backend
-Full-stack app for retrieving live stock data and financial metrics (P/E, ROE, debt-to-equity) with a secure server-side API proxy keeping keys off the client.
-
-- **Stack:** FastAPI · Python · HTML/CSS/JS · Finnhub API
-- [View Repository](https://github.com/maninampally/stock-price-api-project)
-
----
-
-### Stock Market BI Dashboard — Power BI Analytics
-Interactive Power BI dashboard analyzing stock market data across sectors, valuation metrics, and risk — built with DAX measures and multi-dimensional filtering.
-
-- **Stack:** Power BI · DAX · Financial datasets
-- [View Repository](https://github.com/maninampally/stock-market-bi-dashboard)
-
----
-
-### ByteBites — AI System Design Portfolio
-Food delivery backend system built from requirements → UML architecture → implementation → testing. Demonstrates structured software engineering with 24 unit tests (100% passing).
-
-- **Stack:** Python · UML · Test-Driven Development · Design Patterns
-- [View Repository](https://github.com/maninampally/bytebites-system-design)
-
----
-
-## Tech Stack
-
-### Languages & Frameworks
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-
-### Data & ML
-![PySpark](https://img.shields.io/badge/pyspark-%23E25A1C.svg?style=for-the-badge&logo=apachespark&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-
-### Cloud & Infrastructure
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-
-### DevOps & Tools
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-### Databases
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+# E → T → L
+raw     = extract("espresso beans + vanilla sweet cream")
+crafted = transform(raw)
+print(load(crafted))
+print("  💬 'I debug pipelines and make cold brews. simultaneously.'\n")
+```
 
 ---
 
-## GitHub Stats
+## 🧠 About Me
 
-![](https://github-readme-stats.vercel.app/api?username=maninampally&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false)
+```python
+# ============================================================
+#   mani.py — run at your own risk. side effects include:
+#   jaw dropping, immediate hiring, and pipeline envy.
+# ============================================================
 
-![](https://nirzak-streak-stats.vercel.app/?user=maninampally&theme=github_dark&hide_border=false)
+import random
+import time
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=maninampally&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+# ── FUEL SYSTEM ─────────────────────────────────────────────
+FUEL = {
+    "morning"    : "☕ Double Espresso",
+    "debugging"  : "🧊 Cold Brew (large)",
+    "production" : "⚡ Red Bull",
+    "bored"      : "🧋 Brown Sugar Boba",
+    "victory"    : "🍺 Craft IPA",
+    "2am_deploy" : "☕☕☕ Triple Shot Everything",
+}
+
+FOOD = {
+    "focused"    : "🍜 Ramen (extra spicy)",
+    "monday"     : "🍕 Pizza (mandatory)",
+    "data_win"   : "🌮 Tacos (celebration mode)",
+    "tired"      : "🍫 Dark Chocolate + Cold Brew",
+    "weekend"    : "🥞 Pancakes while reading docs",
+    "big_deploy" : "🍣 Sushi (earned it)",
+}
+
+def refuel(mood):
+    drink = FUEL.get(mood, FUEL["debugging"])
+    snack = FOOD.get(mood, FOOD["focused"])
+    print(f"  🔋 Refueling → {drink} + {snack}")
+    time.sleep(0.4)
+
+
+# ── BOOT SEQUENCE ────────────────────────────────────────────
+def boot():
+    steps = [
+        ("Waking up Mani",              "morning"),
+        ("Ingesting 10+ TB/day",        "focused"),
+        ("Connecting AWS + GCP + Azure","production"),
+        ("Spawning LangGraph agents",   "victory"),
+        ("Checking pipeline SLAs",      "debugging"),
+        ("Deploying to ECR + EC2",      "2am_deploy"),
+    ]
+    print("🚀 Booting mani.py...\n")
+    for step, mood in steps:
+        print(f"  ⚙️  {step}...", end=" ", flush=True)
+        time.sleep(0.3)
+        print("✅")
+        if random.random() > 0.6:       # randomly needs fuel
+            refuel(mood)
+    print()
+
+boot()
+
+
+# ── IDENTITY ─────────────────────────────────────────────────
+print("""
+╔═══════════════════════════════════════════════════════════╗
+║          MANIKANTH NAMPALLY  —  DATA ENGINEER             ║
+╠═══════════════════════════════════════════════════════════╣
+║  📍 Location    Boca Raton, FL (remote-friendly)          ║
+║  🎓 Education   M.S. ITM — FAU (2026)  |  GPA 3.9        ║
+║  💼 Currently   Data Engineer @ Opsylux LLC               ║
+║  ⚡ Scale       10+ TB/day · 708M+ events · 3 clouds      ║
+║  🤖 Building    Artha AI · FinSentinel                    ║
+╚═══════════════════════════════════════════════════════════╝
+""")
+
+
+# ── SKILLS ───────────────────────────────────────────────────
+stack = {
+    "🔥 Strengths"   : ["Real-time pipelines", "Lakehouse design", "MLOps", "AI agents"],
+    "☁️  Clouds"     : ["AWS", "GCP", "Azure"],
+    "🛠️  Core Stack"  : ["PySpark", "Kafka", "Airflow", "dbt Core", "Delta Lake"],
+    "🤖 AI / ML"     : ["LangGraph", "PyTorch", "TensorFlow", "MLflow", "FinBERT"],
+    "🚢 DevOps"      : ["Docker", "Kubernetes", "Terraform", "GitHub Actions"],
+}
+
+print("─" * 55)
+for category, items in stack.items():
+    print(f"  {category:22} →  {' · '.join(items)}")
+print("─" * 55)
+
+
+# ── FUN FACTS ────────────────────────────────────────────────
+print("\n💡 Things Mani does before you finish your coffee:\n")
+facts = [
+    "processes more data before 9am than most do all week 📦",
+    "reduced query runtime 4.2 min → 88 sec, saved $18K 💰",
+    "built AI agents that think like Warren Buffett 📈",
+    "deploys to 3 clouds at once without breaking a sweat 🌩️",
+    "scored 708M+ auth events in real-time at 10K events/sec 🔐",
+    "turns raw data into decisions, not just dashboards 🧠",
+    "achieves 0.992 F1 then immediately orders sushi 🍣",
+]
+for i, fact in enumerate(facts, 1):
+    print(f"  {i}. {fact}")
+
+
+# ── CURRENT MOOD ─────────────────────────────────────────────
+mood_today = random.choice(list(FUEL.keys()))
+print(f"\n🎲 Current mood: {mood_today.upper().replace('_',' ')}")
+refuel(mood_today)
+
+
+# ── STATUS ───────────────────────────────────────────────────
+print("""
+┌─────────────────────────────────────────────────────┐
+│  ✅  Open to:  Data Engineer · ML Engineer · MLOps  │
+│  📧  manikanthnampally94@gmail.com                  │
+│  🔗  linkedin.com/in/manikanthn                     │
+└─────────────────────────────────────────────────────┘
+""")
+
+print("# End of mani.py — hire him before someone else does 🚀")
+```
 
 ---
 
-<p align="center">Building AI systems that earn, learn, and transform finance.</p>
+## 🚀 Featured Projects
+
+| Project | Stack | Scale & Impact |
+|---|---|---|
+| [**Artha AI**](https://github.com/maninampally/artha-ai) | LangGraph · Airflow · dbt · pgvector · MLflow · FastAPI | 500+ equities daily · 10+ investor models · sub-50ms p99 |
+| [**FinSentinel**](https://github.com/maninampally/finsentinel) | PyTorch · FinBERT · GCP · Pub/Sub · Evidently AI · Airflow | 0.95 F1 · 500+ articles/day · live drift monitoring |
+| [**AuthPulse**](https://github.com/maninampally/authpulse-analytics) | Kinesis · S3 · Lambda · Terraform · CloudWatch | 708M+ events · 1K–10K/sec · 99.9% SLA |
+| [**Network Security MLOps**](https://github.com/maninampally/network-security) | FastAPI · Docker · ECR · EC2 · MLflow · DagsHub | 0.992 F1 · 26 experiments · full CI/CD |
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Scala](https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white)
+
+**Data Engineering**
+
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?style=for-the-badge&logoColor=white)
+
+**Cloud**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+
+**ML / AI / MLOps**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-00D4FF?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=maninampally&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maninampally&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=maninampally&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=maninampally&theme=tokyo-night&hide_border=true)](https://github.com/maninampally)
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://github.com/maninampally/maninampally/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+
+</div>
+
+> ⚙️ **To activate the snake:** Create `.github/workflows/snake.yml` in this repo with the [platane/snk](https://github.com/platane/snk) action. It auto-generates on every push.
+
+---
+
+---
+
+<div align="center">
+
+*"The stock market is a device for transferring money from the impatient to the patient."*
+**— Warren Buffett**
+
+*The best data engineers don't just move data — they move decisions.*
+
+📍 Boca Raton, FL &nbsp;·&nbsp; Open to remote & relocation
+&nbsp;
+📧 manikanthnampally94@gmail.com
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+
+</div>
