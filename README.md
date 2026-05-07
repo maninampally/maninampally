@@ -256,13 +256,9 @@ print("# End of mani.py — hire him before someone else does 🚀")
 
 <div align="center">
 
-<img src="https://github.com/maninampally/maninampally/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+<img src="https://raw.githubusercontent.com/maninampally/maninampally/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 
 </div>
-
-> ⚙️ **To activate the snake:** Create `.github/workflows/snake.yml` in this repo with the [platane/snk](https://github.com/platane/snk) action. It auto-generates on every push.
-
----
 
 ---
 
