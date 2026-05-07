@@ -9,7 +9,7 @@
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manikanthnampally94@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=maninampally&label=Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/maninampally)
 
-🟢 **Open to Data Engineer · ML Engineer · MLOps roles · Remote friendly**
+🟢 **Open to Data Engineer · ML Engineer · MLOps roles**
 
 </div>
 
@@ -123,7 +123,7 @@ print("""
 ╔═══════════════════════════════════════════════════════════╗
 ║          MANIKANTH NAMPALLY  —  DATA ENGINEER             ║
 ╠═══════════════════════════════════════════════════════════╣
-║  📍 Location    Boca Raton, FL (remote-friendly)          ║
+║  📍 Location    Boca Raton, FL                            ║
 ║  🎓 Education   M.S. ITM — FAU (2026)  |  GPA 3.9         ║
 ║  💼 Currently   Data Engineer @ Opsylux LLC               ║
 ║  ⚡ Scale       10+ TB/day · 708M+ events · 3 clouds      ║
@@ -269,7 +269,7 @@ print("# End of mani.py — hire him before someone else does 🚀")
 
 *The best data engineers don't just move data — they move decisions.*
 
-📍 Boca Raton, FL &nbsp;·&nbsp; Open to remote & relocation
+📍 Boca Raton, FL
 &nbsp;
 📧 manikanthnampally94@gmail.com
 
