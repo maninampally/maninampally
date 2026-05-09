@@ -233,10 +233,10 @@ print("# End of mani.py — hire him before someone else does 🚀")
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=maninampally&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maninampally&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats-oyptu29cl.vercel.app/api?username=maninampally&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats-oyptu29cl.vercel.app/api/top-langs/?username=maninampally&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=maninampally&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=maninampally&theme=tokyonight&hide_border=true)
 
 </div>
 
