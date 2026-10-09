@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Manikanth%20Nampally&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Software%20Engineer%20%7C%20LLM%20Systems%20%7C%20Multi-Agent%20Apps&descAlignY=53&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Manikanth%20Nampally&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%7C%20Backend%20%7C%20Full-Stack%20%7C%20Cloud&descAlignY=53&descAlign=50" width="100%" alt="Manikanth Nampally profile header"/>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=750&lines=AI+Software+Engineer+building+production+LLM+systems;LangGraph+multi-agent+orchestration+%26+RAG+pipelines;FastAPI+%2B+React+full-stack+AI+applications;Serving+100%2B+enterprise+client+accounts+at+Opsylux;Shipped+Artha+AI+%26+HireCanvas+(100%2B+beta+users))](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=750&lines=Building+reliable+backend+services+and+REST+APIs;Developing+full-stack+applications+with+React+and+TypeScript;Designing+database-driven+and+distributed+systems;Automating+testing%2C+builds%2C+and+deployments;Applying+AI+where+it+solves+real+software+problems)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manikanthn)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maninampally)
@@ -17,96 +17,86 @@
 <div align="center">
 <table>
 <tr>
-<td align="center"><b>🏢 100+ Clients</b><br/>Enterprise AI Workflows</td>
-<td align="center"><b>👥 100+ Users</b><br/>HireCanvas Closed Beta</td>
-<td align="center"><b>🤖 0.97 F1</b><br/>Production MLOps</td>
-<td align="center"><b>⚡ 70% Faster</b><br/>Financial Research</td>
+<td align="center"><b>🏢 100+ Client Accounts</b><br/>Enterprise Software Workflows</td>
+<td align="center"><b>👥 100+ Beta Users</b><br/>HireCanvas Application</td>
+<td align="center"><b>🔗 20+ Systems</b><br/>Enterprise Integrations</td>
+<td align="center"><b>⚡ 4.2 min → 88 sec</b><br/>Workflow Runtime Improvement</td>
 </tr>
 </table>
 </div>
 
 ---
 
-## About
+## About Me
 
-AI Software Engineer with 3+ years building production LLM systems, multi-agent orchestration workflows, and full-stack AI applications using **Python, LangGraph, FastAPI, and React**. Contributing to enterprise AI workflow infrastructure at **Opsylux** — LLM integrations, tool workflows, and AI-powered business automation serving **100+ client accounts**. Independently designed and shipped **Artha AI**, a live multi-agent LangGraph financial research platform, and **HireCanvas**, a full-stack AI SaaS product with **100+ closed-beta users**.
+I'm a **Software Engineer** focused on building reliable backend services, APIs, database-driven applications, and full-stack products. My experience spans backend development, enterprise system integrations, asynchronous workflows, automated testing, and cloud-based deployments. I enjoy turning requirements into maintainable software, investigating production issues, and improving performance and reliability.
 
-🎓 M.S. Information Technology & Management — FAU (May 2026 · GPA 3.9/4.0)  
-🟢 **Open to AI Engineer · AI Software Engineer · LLM / Agentic Systems roles**
+At **Opsylux**, I work on software workflows and integrations supporting enterprise SaaS accounts. Previously, at **LTIMindtree**, I developed backend services connecting enterprise systems and helped improve workflow execution time. I also build independent products, including **HireCanvas** and **Artha AI**, where I work across APIs, data models, frontend experiences, background jobs, and application integrations.
+
+- 🎓 **M.S. Information Technology & Management** — Florida Atlantic University, May 2026
+- 💻 **Primary interests:** Backend Engineering, Full-Stack Development, API Design, and Distributed Systems
+- ☁️ **Engineering tools:** Python, Java, TypeScript, FastAPI, React, PostgreSQL, Redis, Docker, AWS, and Azure
+- 🤖 **Additional interest:** Integrating AI capabilities into practical software products
+- 🟢 **Open to:** Software Engineer, Backend Engineer, and Full-Stack Engineer opportunities
 
 ---
 
 ## Featured Projects
 
-| Project | What I Built | Scale & Impact |
-|---------|-------------|----------------|
-| [**Artha AI**](https://github.com/maninampally/artha.ai) | LangGraph multi-agent · RAG · pgvector · LlamaIndex · FastAPI · React | 500+ equities · 70% faster research · deterministic scoring + Claude narratives |
-| [**HireCanvas**](https://github.com/maninampally/job-search-hub-ai) | Next.js · FastAPI · BullMQ · Redis · Supabase · OAuth · MCP | 100+ closed-beta users · real-time job tracking · LLM email extraction |
-| [**Phishing Detection MLOps**](https://github.com/maninampally/network-security) | Scikit-learn · MLflow · FastAPI · Docker · AWS ECR/EC2 · CI/CD | 0.97 F1 · 26 experiments · end-to-end training → production |
+| Project | Engineering Focus | Technologies & Highlights |
+|---|---|---|
+| [**HireCanvas**](https://github.com/maninampally/job-search-hub-ai) | Full-stack application, API integrations, background jobs, and job tracking | Next.js, FastAPI, Redis, BullMQ, Supabase, OAuth; built for a closed beta with 100+ users |
+| [**Artha AI**](https://github.com/maninampally/artha.ai) | Data retrieval, backend APIs, research workflows, and financial data processing | FastAPI, React, PostgreSQL/pgvector, Redis; supports research across 500+ equities |
+| [**Phishing Detection MLOps**](https://github.com/maninampally/network-security) | End-to-end application pipeline, model serving, testing, and deployment automation | Python, scikit-learn, MLflow, FastAPI, Docker, AWS ECR/EC2, CI/CD; reported 0.97 F1 score |
 
 ---
 
 ## Experience Highlights
 
-**AI Engineer — Opsylux LLC** *(Nov 2025 – Present)*  
-Built AI business-summary automation for enterprise SaaS dashboards serving 100+ accounts. Cut review time 80%+ with FastAPI summaries, structured validation, MCP tool workflows, and resilient multi-LLM execution (retry, backoff, circuit breakers, tiered rate limits).
+**Software / AI Engineering — Opsylux LLC** *(Nov 2025 – Present)*  
+Developed software automation for enterprise SaaS dashboards serving 100+ client accounts. Built FastAPI-based services, structured data validation, and integrations with external tools. Improved review workflows through automated summaries and added resilience with retries, backoff, circuit breakers, and rate limits.
 
 **Research Assistant — FAU Generative Intelligence Lab** *(May 2025 – May 2026)*  
-Production RAG with LangGraph, pgvector, and LlamaIndex across 500+ equities. Built golden-set regression evaluation to catch hallucinations and retrieval drift before research users saw updates.
+Developed backend retrieval and research workflows for financial information across 500+ equities. Worked with Python services, PostgreSQL/pgvector, and regression evaluation to improve retrieval quality and catch changes before they reached research users.
 
 **Software Engineer — LTIMindtree** *(May 2022 – Jul 2024)*  
-Backend services integrating 20+ enterprise systems; cut workflow runtime 4.2 min → 88 sec; Pytest coverage across 25+ systems; Docker + GitHub Actions with 99%+ uptime.
+Built and maintained backend services integrating 20+ enterprise systems. Improved a workflow's runtime from 4.2 minutes to 88 seconds, expanded automated test coverage across 25+ systems, and supported containerized delivery through Docker and GitHub Actions.
 
 ---
 
-## Tech Stack
+## Technical Skills
 
 <div align="center">
 
-[![Languages](https://skillicons.dev/icons?i=python,ts,js,bash,java,scala&perline=12)](https://skillicons.dev)
-[![AI & ML](https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,fastapi&perline=12)](https://skillicons.dev)
-[![Data & Cloud](https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,terraform,kafka,postgres,mongodb,redis,mysql,dynamodb&perline=12)](https://skillicons.dev)
-[![Software](https://skillicons.dev/icons?i=react,nextjs,nodejs,graphql,githubactions,linux,git,postman&perline=12)](https://skillicons.dev)
-
-<br/>
-
-**AI Frameworks**
-
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8B5CF6?style=for-the-badge&logo=chainlink&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF5A5F?style=for-the-badge)
-![AutoGen](https://img.shields.io/badge/AutoGen-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Haystack](https://img.shields.io/badge/Haystack-2E7D32?style=for-the-badge)
-![Semantic Kernel](https://img.shields.io/badge/Semantic%20Kernel-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-Protocol-000000?style=for-the-badge)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
-![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+[![Languages](https://skillicons.dev/icons?i=python,java,ts,js,bash&perline=12)](https://skillicons.dev)
+[![Backend](https://skillicons.dev/icons?i=fastapi,nodejs,dotnet&perline=12)](https://skillicons.dev)
+[![Frontend](https://skillicons.dev/icons?i=react,nextjs,html,css&perline=12)](https://skillicons.dev)
+[![Data & Cloud](https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,kafka,aws,azure,gcp&perline=12)](https://skillicons.dev)
+[![Engineering Tools](https://skillicons.dev/icons?i=docker,kubernetes,terraform,githubactions,git,linux,postman&perline=12)](https://skillicons.dev)
 
 </div>
 
 <details>
-<summary><b>Full Stack Details</b></summary>
+<summary><b>Detailed Technical Skills</b></summary>
 <br/>
 
-**Languages** · Python · TypeScript · JavaScript · SQL · Bash · Scala · Java  
-**AI Frameworks** · LangGraph · LangChain · LlamaIndex · Hugging Face Transformers · CrewAI · AutoGen · Haystack · Semantic Kernel · DSPy · OpenAI Agents SDK  
-**AI / Agentic** · MCP · Multi-Agent Orchestration · RAG · Hybrid Retrieval · Prompt Engineering · Tool Calling · Function Calling · Structured Outputs · Agents · Memory · Streaming  
-**LLM Platforms** · Anthropic Claude · OpenAI GPT-4o · Google Gemini · LLaMA · Ollama · Amazon Bedrock · Azure OpenAI · Azure AI Foundry · vLLM  
-**Vector & Retrieval** · pgvector · Qdrant · ChromaDB · FAISS · Pinecone · Weaviate · Hybrid Search (BM25 + Dense)  
-**ML / MLOps** · PyTorch · TensorFlow · Scikit-learn · FinBERT · MLflow · Evidently AI · LangSmith · Feature Engineering · Model Registry · Experiment Tracking  
-**Data Engineering** · Databricks · Apache Spark · PySpark · Airflow · dbt · Kafka · Kinesis · Pub/Sub · Delta Lake · Apache Iceberg · Great Expectations · ETL/ELT  
-**Warehouses & Analytics** · Snowflake · BigQuery · Redshift · Athena · Power BI · Tableau  
-**Backend** · FastAPI · REST · Node.js · gRPC · BullMQ · OAuth 2.0 · Async Job Orchestration · Microservices · Event-Driven Architecture  
-**Frontend** · React · Next.js · TypeScript · Tailwind CSS · React Native · Expo  
-**Databases** · PostgreSQL · Redis · MongoDB · MySQL · SQL Server · TimescaleDB · DynamoDB · pgvector · Qdrant · ChromaDB  
-**Cloud** · AWS (S3, EC2, ECR, Lambda, Kinesis, Bedrock, CloudWatch, IAM) · Azure (AI Foundry, OpenAI, Data Factory, Functions) · GCP (BigQuery, Pub/Sub, Dataflow)  
-**DevOps & CI/CD** · Docker · Kubernetes · Terraform · GitHub Actions · Git · Multi-Environment (Dev/QA/Prod) · Linux  
-**Eval & Testing** · Pytest · Golden Set Regression · Source-Grounding Validation · Unit / Integration Testing · LangSmith
+**Languages** · Python · Java · TypeScript · JavaScript · SQL · Bash · Scala
+
+**Backend Development** · FastAPI · Node.js · REST APIs · Spring Boot · gRPC · OAuth 2.0 · Microservices · Asynchronous Processing · Background Jobs · Event-Driven Architecture
+
+**Frontend Development** · React · Next.js · TypeScript · Tailwind CSS · HTML · CSS
+
+**Databases & Messaging** · PostgreSQL · SQL Server · MySQL · MongoDB · Redis · DynamoDB · Apache Kafka
+
+**Cloud & Infrastructure** · AWS (S3, EC2, ECR, Lambda, Kinesis, IAM, CloudWatch) · Azure · GCP
+
+**DevOps & Delivery** · Docker · Kubernetes · Terraform · Git · GitHub Actions · CI/CD · Linux · Multi-Environment Deployments
+
+**Testing & Quality** · Pytest · Unit Testing · Integration Testing · Regression Testing · Structured Validation · Debugging · Performance Optimization
+
+**Software Engineering** · API Design · Database Modeling · System Integration · Maintainable Code · Authentication & Authorization · Reliability Patterns
+
+**AI Integration (Additional)** · LLM APIs · Retrieval-Augmented Generation (RAG) · LangGraph · MCP · Model Evaluation
 
 </details>
 
@@ -132,9 +122,9 @@ Backend services integrating 20+ enterprise systems; cut workflow runtime 4.2 mi
 [![trophy](https://github-profile-trophy.vercel.app/?username=maninampally&theme=tokyonight&no-frame=true&no-bg=true&column=-1)](https://github.com/ryo-ma/github-profile-trophy)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=maninampally&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=maninampally&show_icons=true&theme=default&hide_border=true&count_private=true"/>
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=maninampally&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=maninampally&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=maninampally&show_icons=true&theme=default&hide_border=true"/>
+  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=maninampally&show_icons=true&theme=tokyonight&hide_border=true"/>
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=maninampally&theme=tokyonight&hide_border=true"/>
@@ -148,9 +138,9 @@ Backend services integrating 20+ enterprise systems; cut workflow runtime 4.2 mi
 
 <div align="center">
 
-*Building production LLM systems — agents, RAG, and full-stack AI apps that ship.*
+*Designing dependable software, solving engineering problems, and shipping products that make a difference.*
 
-📍 Seattle, WA &nbsp; 📧 manikanthnampally94@gmail.com
+📍 Seattle, WA &nbsp; 📧 [manikanthnampally94@gmail.com](mailto:manikanthnampally94@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt=""/>
 
