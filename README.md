@@ -119,7 +119,7 @@ Built and maintained backend services integrating 20+ enterprise systems. Improv
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=maninampally&theme=tokyonight&no-frame=true&no-bg=true&column=-1)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://trophy.ryglcloud.net/?username=maninampally&theme=tokyonight&no-frame=true&no-bg=true&column=-1)](https://github.com/ryo-ma/github-profile-trophy)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=maninampally&show_icons=true&theme=tokyonight&hide_border=true"/>
