@@ -7,7 +7,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manikanthn)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maninampally)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://maninampally.vercel.app)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manikanthnampally94@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=maninampally&label=Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/maninampally)
 
 </div>
@@ -31,7 +30,7 @@
 
 I'm a **Software Engineer** focused on building reliable backend services, APIs, database-driven applications, and full-stack products. My experience spans backend development, enterprise system integrations, asynchronous workflows, automated testing, and cloud-based deployments. I enjoy turning requirements into maintainable software, investigating production issues, and improving performance and reliability.
 
-At **Opsylux**, I work on software workflows and integrations supporting enterprise SaaS accounts. Previously, at **LTIMindtree**, I developed backend services connecting enterprise systems and helped improve workflow execution time. I also build independent products, including **HireCanvas** and **Artha AI**, where I work across APIs, data models, frontend experiences, background jobs, and application integrations.
+I also build independent products, including **HireCanvas** and **Artha AI**, where I work across APIs, data models, frontend experiences, background jobs, and application integrations.
 
 - 🎓 **M.S. Information Technology & Management** — Florida Atlantic University, May 2026
 - 💻 **Primary interests:** Backend Engineering, Full-Stack Development, API Design, and Distributed Systems
@@ -48,19 +47,6 @@ At **Opsylux**, I work on software workflows and integrations supporting enterpr
 | [**HireCanvas**](https://github.com/maninampally/job-search-hub-ai) | Full-stack application, API integrations, background jobs, and job tracking | Next.js, FastAPI, Redis, BullMQ, Supabase, OAuth; built for a closed beta with 100+ users |
 | [**Artha AI**](https://github.com/maninampally/artha.ai) | Data retrieval, backend APIs, research workflows, and financial data processing | FastAPI, React, PostgreSQL/pgvector, Redis; supports research across 500+ equities |
 | [**Phishing Detection MLOps**](https://github.com/maninampally/network-security) | End-to-end application pipeline, model serving, testing, and deployment automation | Python, scikit-learn, MLflow, FastAPI, Docker, AWS ECR/EC2, CI/CD; reported 0.97 F1 score |
-
----
-
-## Experience Highlights
-
-**Software / AI Engineering — Opsylux LLC** *(Nov 2025 – Present)*  
-Developed software automation for enterprise SaaS dashboards serving 100+ client accounts. Built FastAPI-based services, structured data validation, and integrations with external tools. Improved review workflows through automated summaries and added resilience with retries, backoff, circuit breakers, and rate limits.
-
-**Research Assistant — FAU Generative Intelligence Lab** *(May 2025 – May 2026)*  
-Developed backend retrieval and research workflows for financial information across 500+ equities. Worked with Python services, PostgreSQL/pgvector, and regression evaluation to improve retrieval quality and catch changes before they reached research users.
-
-**Software Engineer — LTIMindtree** *(May 2022 – Jul 2024)*  
-Built and maintained backend services integrating 20+ enterprise systems. Improved a workflow's runtime from 4.2 minutes to 88 seconds, expanded automated test coverage across 25+ systems, and supported containerized delivery through Docker and GitHub Actions.
 
 ---
 
@@ -139,8 +125,6 @@ Built and maintained backend services integrating 20+ enterprise systems. Improv
 <div align="center">
 
 *Designing dependable software, solving engineering problems, and shipping products that make a difference.*
-
-📍 Seattle, WA &nbsp; 📧 [manikanthnampally94@gmail.com](mailto:manikanthnampally94@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt=""/>
 
